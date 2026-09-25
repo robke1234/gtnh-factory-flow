@@ -16,7 +16,7 @@ concurrency:
 jobs:
   deploy:
     name: Deploy site to exotiserver
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
 

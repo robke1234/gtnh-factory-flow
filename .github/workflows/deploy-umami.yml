@@ -13,7 +13,7 @@ concurrency:
 jobs:
   deploy:
     name: Deploy Umami analytics to exotiserver
-    runs-on: [self-hosted, Linux, X64, gtnh-export]
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v6
 

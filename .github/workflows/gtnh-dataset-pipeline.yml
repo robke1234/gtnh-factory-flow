@@ -42,7 +42,7 @@ concurrency:
 jobs:
   detect:
     name: Detect GTNH versions
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.detect.outputs.matrix }}
       has_versions: ${{ steps.detect.outputs.has_versions }}
